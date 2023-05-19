@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fitness and Health Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="welcomeSection">
+    <h1>Hello, Welcome to Personal Fitness and Health Inventory!</h1>
+    <button id="startButton">Start!</button>
+  </div>
+
+  <div id="loginSection" style="display: none;">
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username"><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password"><br><br>
+      <button id="submitBtn">Submit</button>
+    </form>
+  </div>
+
+  <div id="dashboardSection" style="display: none;">
+    <h2>Dashboard</h2>
+    <div class="dashboard-section">
+      <h3 class="section-title">Food</h3>
+      <form id="food-form" class="form">
+        <input id="food-input" type="text" placeholder="Add food" />
+        <button type="submit">Add</button>
+      </form>
+    </div>
+
+    <div class="dashboard-section">
+      <h3 class="section-title">Workout Plan</h3>
+      <form id="workout-form" class="form">
+        <input id="workout-input" type="text" placeholder="Add workout plan" />
+        <button type="submit">Add</button>
+      </form>
+    </div>
+
+    <button id="goToPlanButton">Go to Plan</button>
+  </div>
+
+  <div id="planSection" style="display: none;">
+    <h2>Plan for Today</h2>
+    <button id="logoutButton" class="button">Logout</button>
+    <button id="backButton">Back</button>
+    <div id="foodSection">
+      <h3>Food</h3>
+      <ul id="foodList" class="item-list"></ul>
+    </div>
+    <div id="workoutSection">
+      <h3>Workout Plan</h3>
+      <ul id="workoutList" class="item-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

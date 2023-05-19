@@ -1,0 +1,186 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #a59797;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 400px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form input[type="text"],
+  .form input[type="password"] {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 4px;
+  }
+  
+  .form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form button[type="submit"]:hover {
+    background-color: blue;
+  }
+  
+  .item-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #1976D2;
+  }
+  
+  #welcomeSection {
+    text-align: center;
+  }
+  
+  #loginSection,
+  #dashboardSection,
+  #planSection {
+    margin-top: 20px;
+  }
+  
+  .dashboard-section {
+    margin-top: 20px;
+  }
+  
+  .section-title {
+    margin-bottom: 10px;
+  }
+  
+  #startButton {
+    padding: 20px 40px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin: 20px auto;
+  }
+  
+  #goToPlanButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  #goToPlanButton:hover {
+    background-color: #45a049;
+  }
+  
+  #backButton {
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #backButton:hover {
+    background-color: #1976D2;
+  }
+  
+  /* ...existing code... */
+
+#logoutButton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  /* ...existing code... */
+  
